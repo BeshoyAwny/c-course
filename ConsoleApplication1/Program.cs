@@ -10,6 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            // This is my  first program
+
             DateTime my_age =Convert.ToDateTime(Console.ReadLine());
             int year =Convert.ToInt32( DateTime.Now.Subtract(my_age).TotalDays) / 360;
             Console.WriteLine("your age is "+year + "year");
